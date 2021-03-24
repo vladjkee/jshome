@@ -39,7 +39,7 @@ const MinValue2 = prompt("enter number 2:");
 console.log("Min value is: ",getMinValue(MinValue, MinValue2));
 /**
  * checks if a number is Even
- * @param {Number*} val1 
+ * @param {value*} val1 
  * @param {*} val2 
  */
 const Even = prompt("enter number is Even:");
