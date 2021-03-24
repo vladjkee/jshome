@@ -1,19 +1,4 @@
-// let user = prompt();
-// alert(user);
-// if(isNaN(result)){
-  //   return "ne verno huesos";
-  //  }
-  //  return result
 
-// const text1 = prompt("enter number 1:");
-// const text2 = prompt("enter number 2:");
-// const firstFunc = function(val1, val2){
-//   const result = Number(val1) + Number(val2);
-//   return isNaN(result) ? "ne verno hueso" : result;
-// }
-
-// const sum = firstFunc(text1,  text2);
-// console.log(sum)
 
 const text1 = prompt("enter number 1:");
 const text2 = prompt("enter number 2:");
