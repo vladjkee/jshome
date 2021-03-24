@@ -1,7 +1,6 @@
 
-
-const text1 = prompt("enter number 1:");
-const text2 = prompt("enter number 2:");
+const MaxValue = prompt("enter number 1:");
+const MaxValue2 = prompt("enter number 2:");
 
 
  const getMaxValue = function(val1, val2){
@@ -13,10 +12,10 @@ const text2 = prompt("enter number 2:");
    }
    return val2;
  }
-console.log("Max value is: ", getMaxValue(text1, text2));
+console.log("Max value is: ", getMaxValue(MaxValue, MaxValue2));
 
-const text3 = prompt("enter number 1:");
-const text4 = prompt("enter number 2:");
+const MinValue = prompt("enter number 1:");
+const MinValue2 = prompt("enter number 2:");
 
 
  const getMinValue = function(val1, val2){
@@ -28,11 +27,11 @@ const text4 = prompt("enter number 2:");
    }
    return val2;
  }
-console.log("Min value is: ",getMinValue(text3, text4));
+console.log("Min value is: ",getMinValue(MinValue, MinValue2));
 
-const text5 = prompt("enter number is Even:");
+const Even = prompt("enter number is Even:");
 
  const isEven = function(number){
  return number % 2 === 0;
 } 
-console.log("is Even number: ",isEven(text5));
+console.log("is Even number: ",isEven(Even));
